@@ -1,3 +1,6 @@
+/*Et eksempel på hvor enkelt et komplisert problem kan løses
+ * ved rekursjon. I dette tilfellet; Tower of Hanoi. */
+
 import java.util.Scanner;
 
 public class TowersOfHanoi {
@@ -13,8 +16,8 @@ public class TowersOfHanoi {
 		System.out.println("Trekkene er:");
 		moveDisks(n, 'A', 'B', 'C');
 		
-		//Litt merkelig å skulle måte lage to separate tellere,
-		//da en disk flyttes ved hvert kall uansett
+		/*Litt merkelig å skulle måte lage to separate tellere,
+		 * da en disk flyttes ved hvert kall uansett. */
 		System.out.println("Antall trekk: " + a);
 		System.out.println("Antall kall til moveDisks: " + b);
 	}
